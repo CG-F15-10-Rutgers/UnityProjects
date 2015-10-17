@@ -25,7 +25,8 @@ public class BotControlScript : MonoBehaviour
 	
 	
 	static int idleState = Animator.StringToHash("Base Layer.Idle");	
-	static int locoState = Animator.StringToHash("Base Layer.Locomotion");			// these integers are references to our animator's states
+	static int walkState = Animator.StringToHash("Base Layer.Walk");			// these integers are references to our animator's states
+	static int runState = Animator.StringToHash("Base Layer.Run");			// these integers are references to our animator's states
 	static int jumpState = Animator.StringToHash("Base Layer.Jump");				// and are used to check state for various actions to occur
 	static int jumpDownState = Animator.StringToHash("Base Layer.JumpDown");		// within our FixedUpdate() function below
 	static int fallState = Animator.StringToHash("Base Layer.Fall");
@@ -82,10 +83,12 @@ public class BotControlScript : MonoBehaviour
 		}
 
 		// if we are currently in a state called Locomotion (see line 25), then allow Jump input (Space) to set the Jump bool parameter in the Animator to true
-		if (currentBaseState.nameHash == locoState)
+		if (currentBaseState.nameHash == walkState || currentBaseState.nameHash == runState)
 		{
-			if(Input.GetButtonDown("Jump"))
+			Debug.Log("HERE1");
+			if(Input.GetKeyDown(KeyCode.Space))
 			{
+				Debug.Log("HERE2");
 				anim.SetBool("Jump", true);
 			}
 		}
