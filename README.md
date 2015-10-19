@@ -1,9 +1,9 @@
-#Group Name
+#CG-F15-10-Rutgers
 ######Unity Projects - CG Fall 2015 @ Rutgers
-######By: *[Leader], [Member1], [Member2], [Member3]*
-Check out our website: [Group Name Website](https://www.google.com "Google's Homepage!")
+######By: Bhuvana Chandra I*[bi34]*, Aditya Ravichandran *[ar1175]*, Ahmad Hamidullah
+Check out our website: [CG-F15-10-Rutgers Website](http://learningcomputergraphics.blogspot.com/2015/10/navigation-meshes-and-crowd-simulation.html "Google's Homepage!")
 
-![alt text](teamLogo.png)
+![alt text](logo.jpg)
 
 ###B1: Navigation and Animation
 1. I am a fun project!
