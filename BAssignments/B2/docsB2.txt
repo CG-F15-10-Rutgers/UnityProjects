@@ -1,2 +1,23 @@
-This is B2 project.
-Create B2 project in this folder.
+Group Members : [CG-F15-10-Rutgers]
+Bhuvana Chandra I (bi34)
+Aditya Ravichandran (ar1175)
+Ahmad Hamidullah
+
+
+Animated story :
+	This is a stiry between two legends - Mr.Samurai Sama and Mr.Dead Shot. One day Samurai sama meets with Dead Shot and they talk about
+a lot of stuff for sometime. In the conversation, Dead shot did a mistake of insulting Samurai sama. Samurai sama shouts and Dead shot and
+they both leave that place angry. 
+	Dead shot consumed by anger, plans to kill Samurai sama with his gun. Samurai sama notices Dead shot walking towords him with a gun.
+He senses that something is wrong and quickly hides behind a wall and draws his katana. When Dead shots walks in, Samurai sama slowly sneaks
+up behind him and swiftly slashes Dead shot. The End.
+
+Implementation affordance like sitting, drawing katana, holding on to something, attacking.
+
+Attachments :
+Behavoir tree         - Behaviour_Tree.pdf
+Github URL            - https://github.com/CG-F15-10-Rutgers/UnityProjects/tree/master/BAssignments/B2
+BlogSpot link         - http://learningcomputergraphics.blogspot.com/
+Changed/Added Scripts - Scripts/
+Assets                - Assests.zip
+Offline Deployment    - Offline/
